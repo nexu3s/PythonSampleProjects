@@ -31,7 +31,10 @@ while True:
             else:
                 print("invalid! please guess a number next time!")
                 continue
-
+            
+            if user_guess > top_of_range or user_guess < 0 :
+                print(f"guess number between 0 and {top_of_range}")
+                continue
             if user_guess == random_number:
                 print("nice! you found the number.")
 
