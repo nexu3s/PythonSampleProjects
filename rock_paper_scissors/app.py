@@ -41,7 +41,7 @@ while True :
          print(f"you lose! computer choosed {computer_choose} .")
          computer_wins += 1
     else:
-         print(f"you won ! computer choosed{computer_choose}")
+         print(f"you won ! computer choosed {computer_choose}")
          player_wins += 1
 
 
