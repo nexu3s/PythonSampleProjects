@@ -45,5 +45,5 @@ while True :
          player_wins += 1
 
 else:
-     print("erfan is ulso kuni^2")
+     print("erfan is ulso kuni^2*2")
 
