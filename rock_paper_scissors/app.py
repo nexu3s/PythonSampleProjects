@@ -3,7 +3,7 @@ import random
 options = ["rock", "paper", "scissors"]
 player_wins = 0
 computer_wins = 0
-
+tie = 0
 
 while True :
     
@@ -16,6 +16,7 @@ while True :
     elif player_choose == "r":
         print(f"you won me {player_wins} time!")
         print(f"i won {computer_wins} time!")   
+        print(f"we tie {tie} time!")   
         break 
     
     elif player_choose not in options:
@@ -31,7 +32,7 @@ while True :
     
     elif player_choose == computer_choose:
          print(f"tie ! computer choosed {computer_choose} and player choosed {player_choose}")
-         computer_wins += 1
+         tie += 1
 
     elif player_choose == "paper" and computer_choose == "scissors":
          print(f"you lose! computer choosed {computer_choose} .")
