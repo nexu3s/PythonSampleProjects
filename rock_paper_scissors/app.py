@@ -45,6 +45,3 @@ while True :
          print(f"you won ! computer choosed {computer_choose}")
          player_wins += 1
 
-else:
-     print("erfan is ulso kuni^2*2")
-
