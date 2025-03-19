@@ -52,3 +52,5 @@ while True :
         print("please enter the correct answer (y/n)")
         print("=======================================")
         
+    else : 
+        print("nima is very kuni")
